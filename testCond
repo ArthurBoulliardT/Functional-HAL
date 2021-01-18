@@ -1,0 +1,6 @@
+(define a (n1 n2)
+    (cond 
+        ((eq? n1 n2) "Works!")
+        (#t -42)
+    )
+)
